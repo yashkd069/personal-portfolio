@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Ashik Kumar - BCA student and web developer.">
+  <title>Ashik Kumar | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Ashik<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">BCA Student • Web Developer</p>
+          <h1>Hi, I'm <span>Ashik Kumar</span></h1>
+          <p class="hero-subtitle">I build clean, responsive and user-friendly websites while continuously improving my development skills.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="profile-card" aria-label="Profile introduction">
+          <div class="avatar">AK</div>
+          <h2>Web Developer</h2>
+          <p>HTML • CSS • JavaScript • GitHub</p>
+          <div class="mini-stats">
+            <div><strong>6+</strong><small>Projects</small></div>
+            <div><strong>BCA</strong><small>Student</small></div>
+            <div><strong>2026</strong><small>Learning</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <p class="section-label">ABOUT ME</p>
+        <h2 class="section-title">Building skills through practical projects.</h2>
+        <div class="about-grid">
+          <p>I am a BCA student interested in web development and modern technology. I enjoy turning ideas into simple, responsive websites and learning by building real projects.</p>
+          <p>My current focus is strengthening HTML, CSS and JavaScript, improving Git and GitHub workflow, and creating projects that demonstrate practical problem-solving.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <p class="section-label">SKILLS</p>
+        <h2 class="section-title">Technologies I work with</h2>
+        <div class="skills-grid">
+          <article class="skill-card"><span>01</span><h3>HTML5</h3><p>Semantic, accessible page structure.</p></article>
+          <article class="skill-card"><span>02</span><h3>CSS3</h3><p>Flexbox, Grid, animations and responsive layouts.</p></article>
+          <article class="skill-card"><span>03</span><h3>JavaScript</h3><p>DOM manipulation, events and browser APIs.</p></article>
+          <article class="skill-card"><span>04</span><h3>Git & GitHub</h3><p>Version control and project collaboration.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section-label">PROJECTS</p>
+        <h2 class="section-title">Selected work</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive portfolio landing page created with semantic HTML5 and modern CSS.</p>
+            <div class="tags"><span>HTML5</span><span>CSS3</span><span>Responsive</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <h3>Interactive To-Do List</h3>
+            <p>A task manager concept using JavaScript events and LocalStorage for persistent tasks.</p>
+            <div class="tags"><span>JavaScript</span><span>DOM</span><span>LocalStorage</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <h3>Quiz Web App</h3>
+            <p>An interactive quiz project designed around categories, questions, options and scores.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-box">
+        <div>
+          <p class="section-label">CONTACT</p>
+          <h2 class="section-title">Let's connect.</h2>
+          <p>Interested in collaborating, discussing a project, or sharing learning opportunities? Feel free to reach out.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:your-email@example.com">✉ your-email@example.com</a>
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Ashik Kumar. Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
